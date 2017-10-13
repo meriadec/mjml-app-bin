@@ -11,7 +11,10 @@ source=(
   "https://github.com/mjmlio/${pkgname}/archive/${pkgver}.tar.gz"
   "mjml-app.desktop"
 )
-md5sums=('7144c577dbac7bed68cc8383c344e8cc')
+md5sums=(
+  '7144c577dbac7bed68cc8383c344e8cc'
+  '1f20e11d8f8e674500bdda8054e859c8'
+)
 
 package() {
   cd "${srcdir}/${pkgname}-${pkgver}/"
